@@ -1,13 +1,13 @@
 <template>
   <div class="profile">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="media">
-                    <img class="mr-3">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="media text-left">
+                    <img src="../assets/foto.jpg" class="user-pic mr-3">
                     <div class="media-body">
-                        <h5 class="mt-0">Media heading</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        <h5 class="mt-0">Supardi</h5>
+                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</p>
                     </div>
                 </div>
             </div>
@@ -26,3 +26,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.user-pic {
+    height: 80px;
+    width: 80px;
+    border-radius: 200%;
+}
+</style>
