@@ -6,7 +6,7 @@
                 <div class="media text-left">
                     <img src="../assets/foto.jpg" class="user-pic mr-3">
                     <div class="media-body">
-                        <h5 class="mt-0">Supardi</h5>
+                        <h5 class="mt-0">{{ firstName }} {{ lastName }}</h5>
                         <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</p>
                     </div>
                 </div>
@@ -21,6 +21,12 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 export default {
   name: 'Profile',
+  data: function() {
+    return {
+      firstName: 'Fardhi',
+      lastName: 'Fathonah'
+    }
+  },
   components: {
 
   }
